@@ -1,4 +1,4 @@
-#include <iostream>
+{#include <iostream>
 #include <sstream>
 #include <iomanip>//Has a function to set some precision for floating point numbers.
 #include <string>
@@ -44,8 +44,8 @@ sql::Connection* establishConnection()
     sql::mysql::MySQL_Driver* driver;
     sql::Connection* con = nullptr;
 
-    std::string username = "root";
-    std::string password = "Tunaendakwao@12";
+    std::string username = "your username";
+    std::string password = "your password";
     std::string host = "127.0.0.1:3306";
 
     try
